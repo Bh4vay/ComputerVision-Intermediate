@@ -14,6 +14,10 @@ The project comprises two separate functionalities:
 1. **Object Detection:** Utilizes YOLO (You Only Look Once) model to detect and track objects in real-time using webcam input.
 
 2. **Number Plate Detection:** Implements license plate detection and recognition using EasyOCR and OpenCV on static images.
+   
+3. **Contour Detection:** Implements edge detection.
+
+4. **Body Detection:** Implements face and eye recognition using haarcascade files as well as mediapipe. 
 
 ## Folder Structure
 
