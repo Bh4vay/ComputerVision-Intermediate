@@ -31,9 +31,12 @@ The project directory is structured as follows:
   - `main.py`: Python script for detecting and recognizing number plates in images.
 
 - **Contour_Detection:** Contains files related to edge detection functionality.
-  - `birds.jpg`: YOLO model file for object detection.
+  - `birds.jpg`: image for contour detection.
   - `main.py`: Python script for performing edge detection.
 
-
+- **Body_Detection:** Contains files related to body(face and eyes) detection functionality.
+  - `haarcascade_frontalface_default`: haarcascade file for face detection.
+  - `haarcascade_eye`: haarcascade file for eye detection
+  - `main.py`: Python script for performing body detection.
 
 
