@@ -1,4 +1,4 @@
-# Object and Number Plate Detection
+# Detections in Computer Vision
 
 This project contains Detections using EasyOCR, OpenCV etc.
 
