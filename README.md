@@ -17,7 +17,9 @@ The project comprises two separate functionalities:
    
 3. **Contour Detection:** Implements edge detection.
 
-4. **Body Detection:** Implements face and eye recognition using haarcascade files as well as mediapipe. 
+4. **Body Detection:** Implements face and eye recognition using haarcascade files as well as mediapipe.
+   
+5. **Color Detection:** Implements color detection in real time.
 
 ## Folder Structure
 
@@ -40,7 +42,11 @@ The project directory is structured as follows:
 
 - **Body_Detection:** Contains files related to body(face and eyes) detection functionality.
   - `haarcascade_frontalface_default`: haarcascade file for face detection.
-  - `haarcascade_eye`: haarcascade file for eye detection
+  - `haarcascade_eye`: haarcascade file for eye detection.
   - `main.py`: Python script for performing body detection.
+
+- **Color_Detection:** Contains files related to color detection functionality.
+  - `lambo.png`: image for detecting the color.
+  - `main.py`: Python script for performing color detection.
 
 
