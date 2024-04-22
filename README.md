@@ -13,13 +13,15 @@ The project comprises two separate functionalities:
 
 1. **Object Detection:** Utilizes YOLO (You Only Look Once) model to detect and track objects in real-time using webcam input.
 
-2. **Number Plate Detection:** Implements license plate detection and recognition using EasyOCR and OpenCV on static images.
+2. **Number Plate Detection:** Implements license plate detection and recognition using OpenCV on static images.
    
 3. **Contour Detection:** Implements edge detection.
 
 4. **Body Detection:** Implements face and eye recognition using haarcascade files as well as mediapipe.
    
 5. **Color Detection:** Implements color detection in real time.
+
+6. **Text Detection:** Implements text detection in real time as well as on static images using EasyOCR. 
 
 ## Folder Structure
 
@@ -48,5 +50,9 @@ The project directory is structured as follows:
 - **Color_Detection:** Contains files related to color detection functionality.
   - `lambo.png`: image for detecting the color.
   - `main.py`: Python script for performing color detection.
+ 
+- **Text_Detection:** Contains files related to text detection functionality.
+  - `test1.png`: image for detecting the text.
+  - `main.py`: Python script for performing real time text detection.
 
 
